@@ -1,0 +1,22 @@
+@import "_base";
+
+.container {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    button{
+        margin: 20px;
+        height: 30px;
+        width: 100px;
+        cursor: pointer;
+        background-color: rgb(182, 144, 17);
+        color: white;
+        font-weight: bolder;
+        border-color: white;
+        border-width: 1px;
+    }
+    button:hover {
+        background-color: white;
+        color: rgb(182, 144, 17);
+    }
+}
